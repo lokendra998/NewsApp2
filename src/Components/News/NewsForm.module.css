@@ -1,0 +1,55 @@
+.heading h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.control{
+   margin-left: 2rem;
+}
+.control__title label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.control__title input{
+    border: 3px solid rgb(77, 223, 85);
+    width: 90%;
+   height:4vh;
+}
+.control__image{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.control__image input{
+    cursor: pointer;
+    color: brown;
+    width: 90%;
+}
+.control__title input:hover{
+    background-color: rgb(248, 246, 245);
+   border: 3px solid rgb(63, 235, 11);
+}
+.btn{
+ float: right;
+ color: rgb(121, 5, 76);
+ border: 3px solid rgb(121, 5, 76);
+ background-color: white;
+ font-size: 1.4rem;
+ border-radius: 25px;
+ margin: 2rem;
+
+ padding-left: 11px;
+ padding-right: 11px;
+ font-weight: bold;
+ 
+}
+
+.btn:hover{
+    color: white;
+    background-color:rgb(121, 5, 76) ;
+}
+
+@media(max-Width:500px){
+    .btn{
+        width: 90%;
+    }
+}

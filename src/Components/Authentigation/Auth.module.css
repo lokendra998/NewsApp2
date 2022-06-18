@@ -1,0 +1,47 @@
+.Auth{
+    width: 80%;
+    height: 35vh;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    margin:3rem  auto;
+   
+}
+.Auth h1{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 1rem;
+}
+.form{
+    margin: 1rem;
+}
+.control label{
+font-weight: bold;
+color: indigo;
+}
+.control input{
+    border: 3px solid indigo;
+    width: 90%;
+}
+.btn{
+    color: white;
+    border-radius: 24px;
+    float: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    background-color: rgb(128, 5, 121);
+    
+    padding: 3px 15px;
+}
+.btn:hover{
+    background-color:rgb(192, 17, 183) ;
+}
+.control input:hover{
+    background-color: rgb(197, 224, 224);
+    
+}
+@media(max-width:500px){
+    .btn{
+        width: 90%;
+    }
+}

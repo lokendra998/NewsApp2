@@ -1,0 +1,72 @@
+.main{
+  display: flex;
+  flex-direction: column;
+}
+  
+  .main img {
+   width: 100vw;
+   height: 22rem;
+  }
+  .image img{
+    width: 30%;
+    border: 3px solid black;
+    box-shadow: 0 3px 10px rgba(251, 251, 251, 0.25);
+    border-radius: 22px;
+    margin-top: 2px;
+    
+  }
+.image{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer{
+  box-shadow: 0 2 8 white;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(4, 35, 59);
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: -1rem;
+  width: 100vw;
+}
+.copy h3{
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 3rem;
+  margin: 2px;
+}
+.footer a{
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  color: red;
+  border: 3px solid red;
+  height: 2rem;
+  padding: 5px 5px;
+  padding-bottom: 30px;
+  margin: 10px;
+  border-radius: 22px;
+
+
+
+}
+.footer h1{
+  display: block;
+}
+
+@media(max-width:1180px){
+  .footer{
+    flex-direction: column;
+    justify-content: unset;
+    text-align: center;
+  }
+}
+
+.footer a:hover{
+  background-color: red;
+  color: white;
+}

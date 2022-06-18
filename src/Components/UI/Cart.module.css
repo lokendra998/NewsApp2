@@ -1,0 +1,10 @@
+.cart {
+    padding: 1rem;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    width: 70%;
+    margin: 2rem auto;
+    height: 24rem;
+   
+  }
